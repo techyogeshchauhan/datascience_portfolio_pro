@@ -120,34 +120,34 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-primary-50 to-accent-50 py-20 lg:py-32 overflow-hidden">
+    <section class="relative bg-gradient-to-br from-primary-50 to-accent-50 py-12 sm:py-16 md:py-20 lg:py-32 overflow-hidden">
         <div class="absolute inset-0 bg-white/60"></div>
         <!-- Background Pattern -->
         <div class="absolute inset-0 opacity-10">
-            <div class="absolute top-10 left-10 w-20 h-20 bg-primary rounded-full"></div>
-            <div class="absolute top-40 right-20 w-16 h-16 bg-accent rounded-full"></div>
-            <div class="absolute bottom-20 left-1/4 w-12 h-12 bg-secondary rounded-full"></div>
+            <div class="absolute top-10 left-10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-primary rounded-full"></div>
+            <div class="absolute top-40 right-20 w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 bg-accent rounded-full"></div>
+            <div class="absolute bottom-20 left-1/4 w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-secondary rounded-full"></div>
         </div>
         
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
                 <!-- Content -->
-                <div class="text-center lg:text-left">
-                    <div class="mb-6">
-                        <span class="inline-block bg-accent text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                <div class="text-center lg:text-left order-2 lg:order-1">
+                    <div class="mb-4 sm:mb-6">
+                        <span class="inline-block bg-accent text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-semibold mb-3 sm:mb-4">
                             PhD Research Scholar & Academic Faculty
                         </span>
                     </div>
-                    <h1 class="text-4xl lg:text-6xl font-crimson font-bold text-primary mb-4 leading-tight">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-crimson font-bold text-primary mb-3 sm:mb-4 leading-tight">
                         Dr. Soni Sharma
                     </h1>
-                    <p class="text-2xl lg:text-3xl text-accent font-crimson font-semibold mb-6">
+                    <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl text-accent font-crimson font-semibold mb-4 sm:mb-6">
                         AI & ML Researcher
                     </p>
-                    <p class="text-xl text-text-secondary mb-8 leading-relaxed text-justify lg:text-left">
+                    <p class="text-base sm:text-lg md:text-xl text-text-secondary mb-6 sm:mb-8 leading-relaxed text-justify lg:text-left">
                         As a PhD researcher and educator, I'm passionate about advancing AI and machine learning through innovative research that bridges theoretical foundations with practical applications. My work focuses on developing intelligent systems for healthcare, education, and societal challenges.
                     </p>
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
                         <a href="research_portfolio_ph_d_excellence_showcase.html" class="btn-primary">
                             <span>Explore Research</span>
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -184,39 +184,41 @@
                 </div>
 
                 <!-- Professional Portrait -->
-                <div class="flex justify-center lg:justify-end">
+                <div class="flex justify-center lg:justify-end order-1 lg:order-2">
                     <div class="profile-image-container">
                         <div class="relative">
-                            <div class="w-80 h-80 rounded-full overflow-hidden shadow-2xl border-4 border-white">
+                            <div class="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl border-4 border-white">
                                 <img src="Nonu.jpg" alt="Dr. Soni Sharma - AI & ML Researcher" 
                                     class="w-full h-full object-cover transition-transform duration-300 hover:scale-105" 
                                     onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616c9c9b8d4?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
                             </div>
                             
                             <!-- Floating Badges -->
-                            <div class="floating-badge absolute -top-4 -right-4 bg-accent text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg flex items-center gap-2 z-10">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <div class="floating-badge absolute -top-2 -right-2 sm:-top-4 sm:-right-4 bg-accent text-white px-2 py-1 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-semibold shadow-lg flex items-center gap-1 sm:gap-2 z-10">
+                                <svg class="w-3 h-3 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
                                 </svg>
-                                PhD Candidate
+                                <span class="hidden sm:inline">PhD Candidate</span>
+                                <span class="sm:hidden">PhD</span>
                             </div>
                             
-                            <div class="absolute -bottom-4 -left-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg flex items-center gap-2 z-10">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <div class="absolute -bottom-2 -left-2 sm:-bottom-4 sm:-left-4 bg-primary text-white px-2 py-1 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-semibold shadow-lg flex items-center gap-1 sm:gap-2 z-10">
+                                <svg class="w-3 h-3 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                                 </svg>
-                                DSVV Faculty
+                                <span class="hidden sm:inline">DSVV Faculty</span>
+                                <span class="sm:hidden">Faculty</span>
                             </div>
 
                             <!-- Floating Icons -->
-                            <div class="absolute -top-8 -left-8 bg-secondary-100 text-secondary p-3 rounded-full shadow-lg floating-badge">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <div class="hidden md:block absolute -top-6 -left-6 lg:-top-8 lg:-left-8 bg-secondary-100 text-secondary p-2 lg:p-3 rounded-full shadow-lg floating-badge">
+                                <svg class="w-4 h-4 lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
                                 </svg>
                             </div>
                             
-                            <div class="absolute -bottom-8 -right-8 bg-accent-100 text-accent p-3 rounded-full shadow-lg" style="animation: float 2s ease-in-out infinite;">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <div class="hidden md:block absolute -bottom-6 -right-6 lg:-bottom-8 lg:-right-8 bg-accent-100 text-accent p-2 lg:p-3 rounded-full shadow-lg" style="animation: float 2s ease-in-out infinite;">
+                                <svg class="w-4 h-4 lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                                 </svg>
                             </div>
@@ -228,14 +230,14 @@
     </section>
 
     <!-- Research & Expertise Section -->
-    <section class="py-20 bg-white">
+    <section class="py-12 sm:py-16 md:py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Research & Expertise</h2>
-                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Bridging cutting-edge AI research with practical applications in healthcare, education, and technology</p>
+            <div class="text-center mb-12 sm:mb-16">
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-crimson font-bold text-primary mb-3 sm:mb-4">Research & Expertise</h2>
+                <p class="text-lg sm:text-xl text-text-secondary max-w-3xl mx-auto">Bridging cutting-edge AI research with practical applications in healthcare, education, and technology</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                 <!-- Research Focus -->
                 <div class="card-research card-hover group cursor-pointer"
                     onclick="window.location.href='research_portfolio_ph_d_excellence_showcase.html'">

@@ -335,16 +335,63 @@
             transform: translateY(-8px);
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 640px) {
             .publication-meta {
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 0.5rem;
             }
-
+            
             .filter-buttons {
                 flex-wrap: wrap;
                 justify-content: center;
+                gap: 0.5rem;
+            }
+            
+            .filter-btn {
+                padding: 0.375rem 0.75rem;
+                font-size: 0.8125rem;
+                min-width: auto;
+            }
+            
+            .card {
+                padding: 1rem;
+                margin-bottom: 1rem;
+            }
+            
+            .btn-primary, .btn-secondary, .btn-accent {
+                padding: 0.625rem 1rem;
+                font-size: 0.875rem;
+                width: 100%;
+                text-align: center;
+            }
+            
+            .stats-card {
+                padding: 1rem;
+                text-align: center;
+            }
+        }
+        
+        @media (min-width: 641px) and (max-width: 768px) {
+            .publication-meta {
+                flex-wrap: wrap;
+                gap: 0.75rem;
+            }
+            
+            .filter-buttons {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 0.75rem;
+            }
+            
+            .card {
+                padding: 1.25rem;
+            }
+        }
+        
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .card {
+                padding: 1.5rem;
             }
         }
 
@@ -472,15 +519,15 @@
         <div class="absolute inset-0 bg-white/60"></div>
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
-                <h1 class="text-4xl lg:text-5xl font-crimson font-bold text-primary mb-6">
-                    Publications & <span class="text-accent">Insights</span>
+                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-crimson font-bold text-primary mb-4 sm:mb-6">
+                    Publications & <span class="text-accent">Research</span>
                 </h1>
-                <p class="text-xl text-text-secondary max-w-4xl mx-auto mb-8 leading-relaxed">
+                <p class="text-lg sm:text-xl text-text-secondary max-w-4xl mx-auto mb-6 sm:mb-8 leading-relaxed">
                     Scholarly contributions to AI & ML research, healthcare analytics, and academic discourse. Bridging
                     theoretical research with practical applications through peer-reviewed publications and academic
                     excellence.
                 </p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                     <a href="#publications" class="btn-primary">Browse Publications</a>
                     <a href="#discourse" class="btn-secondary">Academic Discourse</a>
                 </div>
@@ -536,7 +583,7 @@
             </div>
 
             <!-- Publication Stats -->
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
+            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-12 sm:mb-16">
                 <div class="stats-card bg-white p-6 rounded-lg shadow-academic text-center">
                     <div class="text-3xl font-crimson font-bold text-primary mb-2">12+</div>
                     <div class="text-text-secondary">Total Publications</div>
