@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Soni  - AI & ML Researcher </title>
-    <meta name="description" content="PhD Data Science researcher and educator bridging theoretical research with practical education at DSVV University." />
+    <title>Dr. Soni Sharma - AI & ML Researcher | PhD Data Science</title>
+    <meta name="description"
+        content="Dr. Soni Sharma - PhD Data Science researcher and educator bridging theoretical AI/ML research with practical applications at DSVV University." />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fdatascienc8517back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+    <script type="module"
+        src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fdatascienc8517back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+    <style>
+        /* Additional styles for homepage enhancements */
+        .floating-badge {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .profile-image-container {
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+        
+        .profile-image-container:hover {
+            transform: scale(1.02);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
+
 <body class="bg-background text-text-primary">
     <!-- Navigation Header -->
     <nav class="bg-white shadow-academic sticky top-0 z-50">
@@ -19,35 +52,48 @@
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
                         <svg class="h-10 w-10 text-primary" viewBox="0 0 40 40" fill="currentColor">
-                            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
-                            <path d="M12 20h16M20 12v16" stroke="currentColor" stroke-width="2"/>
-                            <circle cx="16" cy="16" r="2" fill="currentColor"/>
-                            <circle cx="24" cy="24" r="2" fill="currentColor"/>
+                            <!-- Academic cap base -->
+                            <path d="M20 8L6 14l14 6 14-6-14-6z" fill="currentColor" />
+                            <!-- Academic cap top -->
+                            <path d="M20 14l-10 4.5v6c0 3 4.5 5.5 10 5.5s10-2.5 10-5.5v-6L20 14z" fill="currentColor"
+                                opacity="0.8" />
+                            <!-- Tassel -->
+                            <circle cx="32" cy="16" r="2" fill="currentColor" />
+                            <path d="M32 18v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                         </svg>
                     </div>
                     <div class="ml-3">
-                        <h1 class="text-xl font-crimson font-bold text-primary">Soni Sharma </h1>
-                        <p class="text-sm text-text-secondary">  AI & ML Researcher </p>
+                        <h1 class="text-xl font-crimson font-bold text-primary">Dr. Soni Sharma</h1>
+                        <p class="text-sm text-text-secondary">AI & ML Researcher | PhD Scholar</p>
                     </div>
                 </div>
 
                 <!-- Desktop Navigation -->
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
-                        <a href="homepage_academic_portfolio_hub.html" class="text-primary font-semibold px-3 py-2 rounded-md text-sm">Home</a>
-                        <a href="research_portfolio_ph_d_excellence_showcase.html" class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Research</a>
-                        <a href="teaching_excellence_hub.html" class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Teaching</a>
-                        <a href="academic_journey_inspiration_story.html" class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Journey</a>
-                        <a href="publications_insights.html" class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Publications</a>
-                        <a href="contact_opportunities.html" class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Contact</a>
+                        <a href="homepage_academic_portfolio_hub.html"
+                            class="text-primary font-semibold px-3 py-2 rounded-md text-sm border-b-2 border-primary">Home</a>
+                        <a href="research_portfolio_ph_d_excellence_showcase.html"
+                            class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Research</a>
+                        <a href="teaching_excellence_hub.html"
+                            class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Teaching</a>
+                        <a href="academic_journey_inspiration_story.html"
+                            class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Journey</a>
+                        <a href="publications_insights.html"
+                            class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Publications</a>
+                        <a href="contact_opportunities.html"
+                            class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Contact</a>
                     </div>
                 </div>
 
                 <!-- Mobile menu button -->
                 <div class="md:hidden">
-                    <button type="button" class="text-text-secondary hover:text-primary focus:outline-none focus:text-primary" onclick="toggleMobileMenu()">
+                    <button type="button"
+                        class="text-text-secondary hover:text-primary focus:outline-none focus:text-primary"
+                        onclick="toggleMobileMenu()">
                         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </button>
                 </div>
@@ -57,52 +103,123 @@
         <!-- Mobile Navigation Menu -->
         <div id="mobile-menu" class="md:hidden hidden">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-neutral-200">
-                <a href="homepage_academic_portfolio_hub.html" class="text-primary font-semibold block px-3 py-2 rounded-md text-base">Home</a>
-                <a href="research_portfolio_ph_d_excellence_showcase.html" class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Research</a>
-                <a href="teaching_excellence_hub.html" class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Teaching</a>
-                <a href="academic_journey_inspiration_story.html" class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Journey</a>
-                <a href="publications_insights.html" class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Publications</a>
-                <a href="contact_opportunities.html" class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Contact</a>
+                <a href="homepage_academic_portfolio_hub.html"
+                    class="text-primary font-semibold block px-3 py-2 rounded-md text-base bg-primary-50">Home</a>
+                <a href="research_portfolio_ph_d_excellence_showcase.html"
+                    class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Research</a>
+                <a href="teaching_excellence_hub.html"
+                    class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Teaching</a>
+                <a href="academic_journey_inspiration_story.html"
+                    class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Journey</a>
+                <a href="publications_insights.html"
+                    class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Publications</a>
+                <a href="contact_opportunities.html"
+                    class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Contact</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-primary-50 to-accent-50 py-20 lg:py-32">
+    <section class="relative bg-gradient-to-br from-primary-50 to-accent-50 py-20 lg:py-32 overflow-hidden">
         <div class="absolute inset-0 bg-white/60"></div>
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-10 left-10 w-20 h-20 bg-primary rounded-full"></div>
+            <div class="absolute top-40 right-20 w-16 h-16 bg-accent rounded-full"></div>
+            <div class="absolute bottom-20 left-1/4 w-12 h-12 bg-secondary rounded-full"></div>
+        </div>
+        
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <!-- Content -->
                 <div class="text-center lg:text-left">
-                    <h1 class="text-4xl lg:text-6xl font-crimson font-bold text-primary mb-2">
-                        AI & ML Researcher
+                    <div class="mb-6">
+                        <span class="inline-block bg-accent text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                            PhD Research Scholar & Academic Faculty
+                        </span>
+                    </div>
+                    <h1 class="text-4xl lg:text-6xl font-crimson font-bold text-primary mb-4 leading-tight">
+                        Dr. Soni Sharma
                     </h1>
                     <p class="text-2xl lg:text-3xl text-accent font-crimson font-semibold mb-6">
-                        Innovating at the Intersection of Data & Intelligence
+                        AI & ML Researcher
                     </p>
-                    <p class="text-xl text-text-secondary mb-8 leading-relaxed">
-                        As a PhD researcher, I am fascinated by the theoretical aspects of AI & ML, from learning paradigms to computational intelligence. My research seeks to develop structured frameworks that not only advance academic understanding but also contribute to practical problem-solving.
+                    <p class="text-xl text-text-secondary mb-8 leading-relaxed text-justify lg:text-left">
+                        As a PhD researcher and educator, I'm passionate about advancing AI and machine learning through innovative research that bridges theoretical foundations with practical applications. My work focuses on developing intelligent systems for healthcare, education, and societal challenges.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <a href="research_portfolio_ph_d_excellence_showcase.html" class="btn-primary">Explore Research</a>
-                        <a href="contact_opportunities.html" class="btn-secondary">Collaborate</a>
+                        <a href="research_portfolio_ph_d_excellence_showcase.html" class="btn-primary">
+                            <span>Explore Research</span>
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                        <a href="contact_opportunities.html" class="btn-secondary">
+                            <span>Collaborate With Me</span>
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </a>
+                    </div>
+                    
+                    <!-- Quick Stats -->
+                    <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-primary">8+</div>
+                            <div class="text-sm text-text-secondary">Publications</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">1</div>
+                            <div class="text-sm text-text-secondary">Patent</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-secondary">5+</div>
+                            <div class="text-sm text-text-secondary">Collaborations</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-primary">3</div>
+                            <div class="text-sm text-text-secondary">Active Projects</div>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Professional Portrait -->
                 <div class="flex justify-center lg:justify-end">
-                    <div class="relative">
-                        <div class="flex justify-center lg:justify-end">
-                            <div class="relative">
-                                <div class="w-80 h-80 rounded-full overflow-hidden shadow-academic-xl">
-                                    <img src="Nonu.jpg" alt="Soni"/>
-                                </div>
-                        <!-- Floating Academic Badges -->
-                        <div class="absolute -top-4 -right-4 bg-accent text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
-                            Doctoral Candidate
-                        </div>
-                        <div class="absolute -bottom-4 -left-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
-                            Academic Faculty, DSVV Uttrakhand
+                    <div class="profile-image-container">
+                        <div class="relative">
+                            <div class="w-80 h-80 rounded-full overflow-hidden shadow-2xl border-4 border-white">
+                                <img src="Nonui.jpg" alt="Dr. Soni Sharma - AI & ML Researcher" 
+                                    class="w-full h-full object-cover transition-transform duration-300 hover:scale-105" 
+                                    onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616c9c9b8d4?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                            </div>
+                            
+                            <!-- Floating Badges -->
+                            <div class="floating-badge absolute -top-4 -right-4 bg-accent text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg flex items-center gap-2 z-10">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+                                </svg>
+                                PhD Candidate
+                            </div>
+                            
+                            <div class="absolute -bottom-4 -left-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg flex items-center gap-2 z-10">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                                </svg>
+                                DSVV Faculty
+                            </div>
+
+                            <!-- Floating Icons -->
+                            <div class="absolute -top-8 -left-8 bg-secondary-100 text-secondary p-3 rounded-full shadow-lg floating-badge">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                                </svg>
+                            </div>
+                            
+                            <div class="absolute -bottom-8 -right-8 bg-accent-100 text-accent p-3 rounded-full shadow-lg" style="animation: float 2s ease-in-out infinite;">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                </svg>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -110,71 +227,96 @@
         </div>
     </section>
 
-    <!-- Dynamic Showcase Section -->
+    <!-- Research & Expertise Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">My Journey as Researcher & Educator</h2>
-                <p class="text-xl text-text-secondary max-w-3xl mx-auto">As a Research Scholar and Academic Faculty, I strive to connect theoretical research in AI & ML with impactful teaching and real-world applications.</p>
+                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Research & Expertise</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Bridging cutting-edge AI research with practical applications in healthcare, education, and technology</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- PhD Research Focus -->
-                <div class="card-research group cursor-pointer" onclick="window.location.href='research_portfolio_ph_d_excellence_showcase.html'">
+                <!-- Research Focus -->
+                <div class="card-research card-hover group cursor-pointer"
+                    onclick="window.location.href='research_portfolio_ph_d_excellence_showcase.html'">
                     <div class="flex items-center mb-4">
                         <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center mr-4">
                             <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-crimson font-semibold text-primary">Current Research</h3>
+                        <h3 class="text-xl font-crimson font-semibold text-primary">PhD Research</h3>
                     </div>
-                    <h4 class="text-lg font-semibold text-text-primary mb-3">AI-Driven Framework for Predicting Depression in Women</h4>
-                    <p class="text-text-secondary mb-4 text-justify leading-relaxed">My doctoral research focuses on developing an intelligent, AI-based model for early prediction of depression in women. By integrating socio-demographic, psychological, and physiological factors with advanced machine learning techniques, this work aims to design a reliable and interpretable framework that supports mental health diagnosis and intervention.</p>
+                    <h4 class="text-lg font-semibold text-text-primary mb-3">AI-Driven Mental Health Prediction</h4>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Developing intelligent AI models for early prediction of depression in women using multimodal data analysis and machine learning techniques to support mental health diagnosis and intervention.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-accent-100 text-accent-800 px-3 py-1 rounded-full text-xs font-medium">Machine Learning</span>
+                        <span class="bg-accent-100 text-accent-800 px-3 py-1 rounded-full text-xs font-medium">Healthcare AI</span>
+                        <span class="bg-accent-100 text-accent-800 px-3 py-1 rounded-full text-xs font-medium">Data Analysis</span>
+                    </div>
                     <div class="flex items-center text-accent font-semibold group-hover:text-accent-600 transition-academic">
                         <span class="mr-2">Explore Research</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </div>
                 </div>
 
-                <!-- Teaching Achievements -->
-                <div class="card group cursor-pointer" onclick="window.location.href='teaching_excellence_hub.html'">
+                <!-- Teaching Excellence -->
+                <div class="card-research card-hover group cursor-pointer" onclick="window.location.href='teaching_excellence_hub.html'">
                     <div class="flex items-center mb-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-crimson font-semibold text-primary">Teaching Excellence</h3>
+                        <h3 class="text-xl font-crimson font-semibold text-primary">Teaching</h3>
                     </div>
-                    <h4 class="text-lg font-semibold text-text-primary mb-3">Integrating AI Research into Teaching</h4>
-                    <p class="text-text-secondary mb-4">As a faculty member at DSVV, I bring cutting-edge AI and ML research into the classroom, designing courses that connect theoretical foundations with real-world applications. By engaging students in project-based learning and research-driven discussions, I aim to cultivate innovation, critical thinking, and an awareness of how AI can address societal challenges such as mental health."</p>
+                    <h4 class="text-lg font-semibold text-text-primary mb-3">AI & ML Education</h4>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Integrating cutting-edge research into classroom teaching at DSVV, fostering innovation through project-based learning and preparing students for real-world AI challenges.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-xs font-medium">Curriculum Design</span>
+                        <span class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-xs font-medium">Mentorship</span>
+                        <span class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-xs font-medium">Research Guidance</span>
+                    </div>
                     <div class="flex items-center text-primary font-semibold group-hover:text-primary-600 transition-academic">
                         <span class="mr-2">View Teaching Hub</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </div>
                 </div>
 
-                <!-- Latest Publications -->
-                <div class="card group cursor-pointer" onclick="window.location.href='publications_insights.html'">
+                <!-- Publications & Innovation -->
+                <div class="card-research card-hover group cursor-pointer" onclick="window.location.href='publications_insights.html'">
                     <div class="flex items-center mb-4">
                         <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center mr-4">
                             <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-crimson font-semibold text-primary">Latest Publications</h3>
+                        <h3 class="text-xl font-crimson font-semibold text-primary">Publications</h3>
                     </div>
-                    <h4 class="text-lg font-semibold text-text-primary mb-3">Recent Research Contributions</h4>
-                    <p class="text-text-secondary mb-4">My recent research and patent contributions focus on advancing AI and ML to address critical challenges. My publications include works on developing an AI-based model for predicting depression in women , and exploring the future of LLM 5.0 in industry. This is complemented by my in-process patent for an 'Interactive display for wearable technologies', which demonstrates my commitment to bridging theoretical research with practical innovation.</p>
+                    <h4 class="text-lg font-semibold text-text-primary mb-3">Research Contributions</h4>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Contributing to academic knowledge through peer-reviewed publications, conference presentations, and patent development in AI applications for healthcare and technology.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-secondary-100 text-secondary-800 px-3 py-1 rounded-full text-xs font-medium">Conference Papers</span>
+                        <span class="bg-secondary-100 text-secondary-800 px-3 py-1 rounded-full text-xs font-medium">Patents</span>
+                        <span class="bg-secondary-100 text-secondary-800 px-3 py-1 rounded-full text-xs font-medium">Research Papers</span>
+                    </div>
                     <div class="flex items-center text-secondary font-semibold group-hover:text-secondary-600 transition-academic">
                         <span class="mr-2">Browse Publications</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </div>
                 </div>
@@ -182,253 +324,127 @@
         </div>
     </section>
 
-    <!-- Academic Timeline Section -->
+    <!-- Academic Journey Highlights -->
     <section class="py-20 bg-surface">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Academic Journey</h2>
-                <p class="text-xl text-text-secondary max-w-3xl mx-auto">From BCA to PhD - A story of continuous learning and academic excellence</p>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">From foundational studies to doctoral research - a commitment to academic excellence</p>
             </div>
 
-            <div class="relative">
-                <!-- Timeline Line -->
-                <div class="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-primary-200 hidden lg:block"></div>
-
-                <!-- Timeline Items -->
-                <div class="space-y-12 lg:space-y-16">
-                    <!-- PhD Journey -->
-                    <div class="relative flex flex-col lg:flex-row items-center">
-                        <div class="lg:w-1/2 lg:pr-12 mb-8 lg:mb-0">
-                            <div class="bg-white p-6 rounded-lg shadow-academic">
-                                <div class="flex items-start mb-4">
-                                    <div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                            <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/>
-                                        </svg>
-                                    </div>
-                                    <div class="flex-1">
-                                        <h3 class="text-xl font-crimson font-semibold text-primary mb-2">PhD in Computer Science & Applications</h3>
-                                        <p class="text-text-secondary mb-3">2024 – Present | Maharishi Markandeshwar (Deemed to be University)</p>
-                                        <p class="text-text-secondary text-justify leading-relaxed">
-                                          Pursuing doctoral research on the development of an AI-based model to predict depression in women using machine learning. 
-                                          My work focuses on building robust, interpretable frameworks that integrate socio-demographic, psychological, and physiological 
-                                          factors to advance computational approaches in mental health prediction.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-accent rounded-full border-4 border-white shadow-lg"></div>
-                        <div class="lg:w-1/2 lg:pl-12">
-                            <img src="research environment.png" alt="PhD Research Environment" class="w-full h-64 object-cover rounded-lg shadow-academic" loading="lazy" onerror="this.src='research environment.png'; this.onerror=null;" />
-                        </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- PhD -->
+                <div class="bg-white p-8 rounded-lg shadow-academic text-center card-hover">
+                    <div class="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+                        </svg>
                     </div>
-
-                    <!-- MCA Achievement -->
-                    <div class="relative flex flex-col lg:flex-row-reverse items-center">
-                        <div class="lg:w-1/2 lg:pl-12 mb-8 lg:mb-0">
-                            <div class="bg-white p-6 rounded-lg shadow-academic">
-                                <div class="flex items-center mb-4">
-                                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mr-4">
-                                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <h3 class="text-xl font-crimson font-semibold text-primary">Master of Computer Applications</h3>
-                                        <p class="text-text-secondary">2021 - 2023 | AI & ML</p>
-                                    </div>
-                                </div>
-                                <p class="text-text-secondary"> Completed MCA with specialization in advanced algorithms and research on optimization methods in machine learning.</p>
-                            </div>
-                        </div>
-                        <div class="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-white shadow-lg"></div>
-                        <div class="lg:w-1/2 lg:pr-12">
-                            <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Academic Study Environment" class="w-full h-64 object-cover rounded-lg shadow-academic" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
-                        </div>
-                    </div>
-
-                    <!-- BCA Foundation -->
-                    <div class="relative flex flex-col lg:flex-row items-center">
-                        <div class="lg:w-1/2 lg:pr-12 mb-8 lg:mb-0">
-                            <div class="bg-white p-6 rounded-lg shadow-academic">
-                                <div class="flex items-center mb-4">
-                                    <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center mr-4">
-                                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                            <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <h3 class="text-xl font-crimson font-semibold text-primary">Bachelor of Computer Applications</h3>
-                                        <p class="text-text-secondary">2018 - 2021 | Computer Science</p>
-                                    </div>
-                                </div>
-                                <p class="text-text-secondary">Foundation in Computer Science with focus on Programming, Database Management, and Software Engineering principles.</p>
-                            </div>
-                        </div>
-                        <div class="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-secondary rounded-full border-4 border-white shadow-lg"></div>
-                        <div class="lg:w-1/2 lg:pl-12">
-                            <img src="https://images.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg" alt="Computer Science Foundation" class="w-full h-64 object-cover rounded-lg shadow-academic" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
-                        </div>
-                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">PhD in Computer Science</h3>
+                    <p class="text-text-secondary mb-4">2024 – Present</p>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Researching AI-based models for depression prediction using machine learning and multimodal data analysis at Maharishi Markandeshwar University.
+                    </p>
                 </div>
 
-                <!-- View Full Journey CTA -->
-                <div class="text-center mt-12">
-                    <a href="academic_journey_inspiration_story.html" class="btn-accent">View Complete Journey</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Research Spotlight Section -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Research Spotlight</h2>
-                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Current projects driving innovation in data science education and research</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Project 1 -->
-                <div class="card-research group">
-                    <div class="mb-4">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Educational Analytics Dashboard" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                <!-- MCA -->
+                <div class="bg-white p-8 rounded-lg shadow-academic text-center card-hover">
+                    <div class="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+                        </svg>
                     </div>
-                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Predictive Learning Analytics</h3>
-                    <p class="text-text-secondary mb-4">Developing ML models to predict student performance and identify at-risk learners early in the academic cycle.</p>
-                    <div class="flex items-center justify-between">
-                        <span class="text-sm text-accent font-semibold">Machine Learning</span>
-                        <span class="text-sm text-text-secondary">Impact: 85% accuracy</span>
-                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Master of Computer Applications</h3>
+                    <p class="text-text-secondary mb-4">2021 - 2023 | AI & ML Specialization</p>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Specialized in artificial intelligence and machine learning, focusing on advanced algorithms and optimization methods.
+                    </p>
                 </div>
 
-                <!-- Project 2 -->
-                <div class="card-research group">
-                    <div class="mb-4">
-                        <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Adaptive Learning System" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                <!-- BCA -->
+                <div class="bg-white p-8 rounded-lg shadow-academic text-center card-hover">
+                    <div class="w-20 h-20 bg-secondary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
+                        </svg>
                     </div>
-                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Adaptive Learning Systems</h3>
-                    <p class="text-text-secondary mb-4">Creating personalized learning pathways using AI to adapt content delivery based on individual learning patterns.</p>
-                    <div class="flex items-center justify-between">
-                        <span class="text-sm text-accent font-semibold">AI/NLP</span>
-                        <span class="text-sm text-text-secondary">Collaboration: Open</span>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="card-research group">
-                    <div class="mb-4">
-                        <img src="https://images.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg" alt="Educational Data Mining" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
-                    </div>
-                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Educational Data Mining</h3>
-                    <p class="text-text-secondary mb-4">Mining large-scale educational datasets to discover patterns that improve teaching methodologies and curriculum design.</p>
-                    <div class="flex items-center justify-between">
-                        <span class="text-sm text-accent font-semibold">Data Mining</span>
-                        <span class="text-sm text-text-secondary">Status: Active</span>
-                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Bachelor of Computer Applications</h3>
+                    <p class="text-text-secondary mb-4">2018 - 2021</p>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Foundation in computer science principles, programming, database management, and software engineering fundamentals.
+                    </p>
                 </div>
             </div>
 
             <div class="text-center mt-12">
-                <a href="research_portfolio_ph_d_excellence_showcase.html" class="btn-primary">Explore All Research</a>
+                <a href="academic_journey_inspiration_story.html" class="btn-accent">View Complete Journey</a>
             </div>
         </div>
     </section>
 
-    <!-- Student Testimonials Section -->
-    <section class="py-20 bg-surface">
+    <!-- Student Impact Section -->
+    <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Student Success Stories</h2>
-                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Inspiring the next generation of data scientists through innovative teaching</p>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Inspiring the next generation of AI researchers and data scientists</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Testimonial 1 -->
-                <div class="bg-white p-6 rounded-lg shadow-academic">
+                <div class="bg-surface p-6 rounded-lg shadow-academic card-hover">
                     <div class="flex items-center mb-4">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Rahul Verma" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        <div class="w-12 h-12 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            RV
+                        </div>
                         <div>
                             <h4 class="font-semibold text-text-primary">Rahul Verma</h4>
                             <p class="text-sm text-text-secondary">MCA Student, DSVV</p>
                         </div>
                     </div>
-                    <p class="text-text-secondary italic mb-4">"Dr. Sharma's teaching methodology transformed my understanding of machine learning. Her practical approach and real-world examples made complex concepts accessible."</p>
+                    <p class="text-text-secondary italic mb-4 leading-relaxed">
+                        "Dr. Sharma's teaching methodology transformed my understanding of machine learning. Her practical approach and real-world examples made complex concepts accessible and applicable."
+                    </p>
                     <div class="flex text-yellow-400">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
+                        ★★★★★
                     </div>
                 </div>
 
                 <!-- Testimonial 2 -->
-                <div class="bg-white p-6 rounded-lg shadow-academic">
+                <div class="bg-surface p-6 rounded-lg shadow-academic card-hover">
                     <div class="flex items-center mb-4">
-                        <img src="https://images.unsplash.com/photo-1494790108755-2616c9c9b8d4?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Priya Singh" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        <div class="w-12 h-12 bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            PS
+                        </div>
                         <div>
                             <h4 class="font-semibold text-text-primary">Priya Singh</h4>
                             <p class="text-sm text-text-secondary">Data Science Course</p>
                         </div>
                     </div>
-                    <p class="text-text-secondary italic mb-4">"The project-based learning approach helped me build a strong portfolio. I landed my dream job at a tech startup thanks to the skills I learned."</p>
+                    <p class="text-text-secondary italic mb-4 leading-relaxed">
+                        "The project-based learning approach helped me build a strong portfolio. I landed my dream job at a tech startup thanks to the practical skills I learned."
+                    </p>
                     <div class="flex text-yellow-400">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
+                        ★★★★★
                     </div>
                 </div>
 
                 <!-- Testimonial 3 -->
-                <div class="bg-white p-6 rounded-lg shadow-academic">
+                <div class="bg-surface p-6 rounded-lg shadow-academic card-hover">
                     <div class="flex items-center mb-4">
-                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Amit Kumar" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg'; this.onerror=null;" />
+                        <div class="w-12 h-12 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            AK
+                        </div>
                         <div>
                             <h4 class="font-semibold text-text-primary">Amit Kumar</h4>
                             <p class="text-sm text-text-secondary">PhD Mentee</p>
                         </div>
                     </div>
-                    <p class="text-text-secondary italic mb-4">"Dr. Sharma's mentorship during my research has been invaluable. Her guidance helped me publish my first paper in a top-tier conference."</p>
+                    <p class="text-text-secondary italic mb-4 leading-relaxed">
+                        "Dr. Sharma's mentorship during my research has been invaluable. Her guidance helped me publish my first paper in a top-tier conference and develop strong research methodology."
+                    </p>
                     <div class="flex text-yellow-400">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
+                        ★★★★★
                     </div>
                 </div>
             </div>
@@ -439,78 +455,102 @@
         </div>
     </section>
 
-    <!-- Latest Insights Section -->
-    <section class="py-20 bg-white">
+    <!-- Latest Updates Section -->
+    <section class="py-20 bg-gradient-to-r from-primary-50 to-accent-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Latest Insights</h2>
-                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Recent thoughts on data science education, research trends, and academic innovation</p>
+                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Latest Updates</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Recent research, publications, and academic activities</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Blog Post 1 -->
-                <article class="card group cursor-pointer" onclick="window.location.href='publications_insights.html'">
-                    <div class="mb-4">
-                        <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Future of Data Science Education" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
-                    </div>
+                <!-- Update 1 -->
+                <article class="bg-white p-6 rounded-lg shadow-academic card-hover group cursor-pointer" onclick="window.location.href='publications_insights.html'">
                     <div class="flex items-center text-sm text-text-secondary mb-3">
-                        <span>December 15, 2024</span>
-                        <span class="mx-2">•</span>
-                        <span>5 min read</span>
+                        <span class="bg-accent-100 text-accent-800 px-2 py-1 rounded text-xs font-medium mr-3">New Publication</span>
+                        <span>December 2024</span>
                     </div>
-                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3 group-hover:text-primary-600 transition-academic">The Future of Data Science Education: Bridging Theory and Practice</h3>
-                    <p class="text-text-secondary mb-4">Exploring how modern data science curricula can better prepare students for real-world challenges while maintaining academic rigor...</p>
-                    <div class="flex items-center text-accent font-semibold group-hover:text-accent-600 transition-academic">
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3 group-hover:text-primary-600 transition-academic">
+                        LLM 5.0: From Efficiency to Innovation
+                    </h3>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Presented research on large language models and their future impact on industry transformation at International Conference on Multi-Agent Systems.
+                    </p>
+                    <div class="flex items-center text-accent font-semibold">
                         <span class="mr-2">Read More</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </div>
                 </article>
 
-                <!-- Blog Post 2 -->
-                <article class="card group cursor-pointer" onclick="window.location.href='publications_insights.html'">
-                    <div class="mb-4">
-                        <img src="https://images.pixabay.com/photo/2020/04/08/08/08/spring-5016266_1280.jpg" alt="Machine Learning in Academic Assessment" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
-                    </div>
+                <!-- Update 2 -->
+                <article class="bg-white p-6 rounded-lg shadow-academic card-hover group cursor-pointer" onclick="window.location.href='research_portfolio_ph_d_excellence_showcase.html'">
                     <div class="flex items-center text-sm text-text-secondary mb-3">
-                        <span>December 8, 2024</span>
-                        <span class="mx-2">•</span>
-                        <span>7 min read</span>
+                        <span class="bg-primary-100 text-primary-800 px-2 py-1 rounded text-xs font-medium mr-3">Research Progress</span>
+                        <span>November 2024</span>
                     </div>
-                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3 group-hover:text-primary-600 transition-academic">Machine Learning in Academic Assessment: A New Paradigm</h3>
-                    <p class="text-text-secondary mb-4">How AI-powered assessment tools are revolutionizing the way we evaluate student learning and provide personalized feedback...</p>
-                    <div class="flex items-center text-accent font-semibold group-hover:text-accent-600 transition-academic">
-                        <span class="mr-2">Read More</span>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3 group-hover:text-primary-600 transition-academic">
+                        AI in Mental Health Research
+                    </h3>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Significant progress in developing multimodal AI models for depression prediction, integrating physiological and behavioral data analysis.
+                    </p>
+                    <div class="flex items-center text-primary font-semibold">
+                        <span class="mr-2">View Research</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </div>
                 </article>
 
-                <!-- Blog Post 3 -->
-                <article class="card group cursor-pointer" onclick="window.location.href='publications_insights.html'">
-                    <div class="mb-4">
-                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Collaborative Research in Data Science" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
-                    </div>
+                <!-- Update 3 -->
+                <article class="bg-white p-6 rounded-lg shadow-academic card-hover group cursor-pointer" onclick="window.location.href='teaching_excellence_hub.html'">
                     <div class="flex items-center text-sm text-text-secondary mb-3">
-                        <span>November 28, 2024</span>
-                        <span class="mx-2">•</span>
-                        <span>6 min read</span>
+                        <span class="bg-secondary-100 text-secondary-800 px-2 py-1 rounded text-xs font-medium mr-3">Teaching Innovation</span>
+                        <span>October 2024</span>
                     </div>
-                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3 group-hover:text-primary-600 transition-academic">Building Bridges: Academic-Industry Collaboration in Data Science</h3>
-                    <p class="text-text-secondary mb-4">The importance of fostering partnerships between academic institutions and industry to advance data science research and education...</p>
-                    <div class="flex items-center text-accent font-semibold group-hover:text-accent-600 transition-academic">
-                        <span class="mr-2">Read More</span>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3 group-hover:text-primary-600 transition-academic">
+                        New AI Curriculum Development
+                    </h3>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Developed and implemented updated AI and machine learning curriculum incorporating latest research findings and industry practices at DSVV.
+                    </p>
+                    <div class="flex items-center text-secondary font-semibold">
+                        <span class="mr-2">Learn More</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </div>
                 </article>
             </div>
 
             <div class="text-center mt-12">
-                <a href="publications_insights.html" class="btn-accent">View All Insights</a>
+                <a href="publications_insights.html" class="btn-primary">View All Updates</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-6">Let's Collaborate on AI Research</h2>
+            <p class="text-xl text-text-secondary mb-8 leading-relaxed">
+                Interested in collaborating on AI and machine learning research? Whether you're a student, researcher, or industry professional, I'm always open to discussing new ideas and partnerships.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact_opportunities.html" class="btn-primary">
+                    <span>Get In Touch</span>
+                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                    </svg>
+                </a>
+                <a href="research_portfolio_ph_d_excellence_showcase.html" class="btn-secondary">
+                    <span>Explore Research</span>
+                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
             </div>
         </div>
     </section>
@@ -523,14 +563,14 @@
                 <div>
                     <div class="flex items-center mb-6">
                         <svg class="h-8 w-8 text-accent mr-3" viewBox="0 0 40 40" fill="currentColor">
-                            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
-                            <path d="M12 20h16M20 12v16" stroke="currentColor" stroke-width="2"/>
-                            <circle cx="16" cy="16" r="2" fill="currentColor"/>
-                            <circle cx="24" cy="24" r="2" fill="currentColor"/>
+                            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2" />
+                            <path d="M12 20h16M20 12v16" stroke="currentColor" stroke-width="2" />
+                            <circle cx="16" cy="16" r="2" fill="currentColor" />
+                            <circle cx="24" cy="24" r="2" fill="currentColor" />
                         </svg>
-                        <h3 class="text-xl font-crimson font-bold"> Soni </h3>
+                        <h3 class="text-xl font-crimson font-bold">Dr. Soni Sharma</h3>
                     </div>
-                    <p class="text-primary-200 mb-4">PhD Data Science researcher and educator at DSVV University, bridging theoretical research with practical education.</p>
+                    <p class="text-primary-200 mb-4">PhD Data Science researcher and educator at DSVV University, bridging theoretical AI/ML research with practical applications.</p>
                     <p class="text-primary-300 text-sm">AI Researcher | Innovating at the Intersection of Data & Intelligence</p>
                 </div>
 
@@ -538,11 +578,18 @@
                 <div>
                     <h4 class="text-lg font-crimson font-semibold mb-6">Quick Links</h4>
                     <ul class="space-y-3">
-                        <li><a href="research_portfolio_ph_d_excellence_showcase.html" class="text-primary-200 hover:text-white transition-academic">Research Portfolio</a></li>
-                        <li><a href="teaching_excellence_hub.html" class="text-primary-200 hover:text-white transition-academic">Teaching Excellence</a></li>
-                        <li><a href="academic_journey_inspiration_story.html" class="text-primary-200 hover:text-white transition-academic">Academic Journey</a></li>
-                        <li><a href="publications_insights.html" class="text-primary-200 hover:text-white transition-academic">Publications</a></li>
-                        <li><a href="contact_opportunities.html" class="text-primary-200 hover:text-white transition-academic">Collaboration</a></li>
+                        <li><a href="research_portfolio_ph_d_excellence_showcase.html"
+                                class="text-primary-200 hover:text-white transition-academic">Research Portfolio</a>
+                        </li>
+                        <li><a href="teaching_excellence_hub.html"
+                                class="text-primary-200 hover:text-white transition-academic">Teaching Excellence</a>
+                        </li>
+                        <li><a href="academic_journey_inspiration_story.html"
+                                class="text-primary-200 hover:text-white transition-academic">Academic Journey</a></li>
+                        <li><a href="publications_insights.html"
+                                class="text-primary-200 hover:text-white transition-academic">Publications</a></li>
+                        <li><a href="contact_opportunities.html"
+                                class="text-primary-200 hover:text-white transition-academic">Collaboration</a></li>
                     </ul>
                 </div>
 
@@ -551,33 +598,41 @@
                     <h4 class="text-lg font-crimson font-semibold mb-6">Academic Profiles</h4>
                     <ul class="space-y-3">
                         <li>
-                            <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-academic flex items-center">
+                            <a href="javascript:void(0)"
+                                class="text-primary-200 hover:text-white transition-academic flex items-center">
                                 <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                                 </svg>
                                 ResearchGate
                             </a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-academic flex items-center">
+                            <a href="javascript:void(0)"
+                                class="text-primary-200 hover:text-white transition-academic flex items-center">
                                 <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                                 </svg>
                                 Google Scholar
                             </a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-academic flex items-center">
+                            <a href="https://www.linkedin.com/in/soni-sharma-3632b9238"
+                                class="text-primary-200 hover:text-white transition-academic flex items-center">
                                 <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                                 </svg>
                                 LinkedIn
                             </a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-academic flex items-center">
+                            <a href="javascript:void(0)"
+                                class="text-primary-200 hover:text-white transition-academic flex items-center">
                                 <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                                 </svg>
                                 GitHub
                             </a>
@@ -590,9 +645,12 @@
                     <h4 class="text-lg font-crimson font-semibold mb-6">Contact Information</h4>
                     <div class="space-y-3">
                         <div class="flex items-start">
-                            <svg class="w-5 h-5 text-accent mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            <svg class="w-5 h-5 text-accent mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                             </svg>
                             <div>
                                 <p class="text-primary-200">DSVV University</p>
@@ -601,15 +659,17 @@
                         </div>
                         <div class="flex items-center">
                             <svg class="w-5 h-5 text-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                             </svg>
-                            <p class="text-primary-200">priya.sharma@dsvv.edu.in</p>
+                            <p class="text-primary-200">sonisharma6102000@gmail.com</p>
                         </div>
                         <div class="flex items-center">
                             <svg class="w-5 h-5 text-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
-                            <p class="text-primary-200">Office Hours: Mon-Fri 10AM-4PM</p>
+                            <p class="text-primary-200">Available for Collaboration & Research Guidance</p>
                         </div>
                     </div>
                 </div>
@@ -619,19 +679,22 @@
             <div class="border-t border-primary-700 mt-12 pt-8">
                 <div class="flex flex-col md:flex-row justify-between items-center">
                     <p class="text-primary-300 text-sm mb-4 md:mb-0">
-                        © 2025  Soni . All Rights Reserved.
+                        © 2025 Dr. Soni Sharma. All Rights Reserved.
                     </p>
                     <div class="flex space-x-6">
-                        <a href="javascript:void(0)" class="text-primary-300 hover:text-white text-sm transition-academic">Privacy Policy</a>
-                        <a href="javascript:void(0)" class="text-primary-300 hover:text-white text-sm transition-academic">Terms of Use</a>
-                        <a href="contact_opportunities.html" class="text-primary-300 hover:text-white text-sm transition-academic">Student Resources</a>
+                        <a href="javascript:void(0)"
+                            class="text-primary-300 hover:text-white text-sm transition-academic">Privacy Policy</a>
+                        <a href="javascript:void(0)"
+                            class="text-primary-300 hover:text-white text-sm transition-academic">Terms of Use</a>
+                        <a href="contact_opportunities.html"
+                            class="text-primary-300 hover:text-white text-sm transition-academic">Student Resources</a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript for Mobile Menu -->
+    <!-- JavaScript -->
     <script>
         function toggleMobileMenu() {
             const mobileMenu = document.getElementById('mobile-menu');
@@ -639,10 +702,10 @@
         }
 
         // Close mobile menu when clicking outside
-        document.addEventListener('click', function(event) {
+        document.addEventListener('click', function (event) {
             const mobileMenu = document.getElementById('mobile-menu');
             const mobileMenuButton = event.target.closest('button');
-            
+
             if (!mobileMenuButton && !mobileMenu.contains(event.target)) {
                 mobileMenu.classList.add('hidden');
             }
@@ -662,6 +725,7 @@
             });
         });
     </script>
-<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+    <script src="../js/main.js"></script>
+    <script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
 </body>
 </html>
