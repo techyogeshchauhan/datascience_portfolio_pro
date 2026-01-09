@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soni - PhD Scholar in Computer Science | AI & ML Researcher</title>
+    <meta name="description"
+        content="Soni - PhD Scholar in Computer Science specializing in AI-based depression prediction models. Lecturer at Dev Sanskriti Vishwavidyalaya (DSVV), Haridwar." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script type="module"
+        src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fdatascienc8517back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+    <style>
+        /* Additional styles for homepage enhancements */
+        .floating-badge {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .profile-image-container {
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+        
+        .profile-image-container:hover {
+            transform: scale(1.02);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="bg-white shadow-academic sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo/Brand -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg class="h-10 w-10 text-primary" viewBox="0 0 40 40" fill="currentColor">
+                            <!-- Academic cap base -->
+                            <path d="M20 8L6 14l14 6 14-6-14-6z" fill="currentColor" />
+                            <!-- Academic cap top -->
+                            <path d="M20 14l-10 4.5v6c0 3 4.5 5.5 10 5.5s10-2.5 10-5.5v-6L20 14z" fill="currentColor"
+                                opacity="0.8" />
+                            <!-- Tassel -->
+                            <circle cx="32" cy="16" r="2" fill="currentColor" />
+                            <path d="M32 18v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <h1 class="text-xl font-crimson font-bold text-primary">Soni</h1>
+                        <p class="text-sm text-text-secondary">PhD Scholar | Lecturer at DSVV</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="homepage_academic_portfolio_hub.html"
+                            class="text-primary font-semibold px-3 py-2 rounded-md text-sm border-b-2 border-primary">Home</a>
+                        <a href="research_portfolio_ph_d_excellence_showcase.html"
+                            class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Research</a>
+                        <a href="teaching_excellence_hub.html"
+                            class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Teaching</a>
+                        <a href="academic_journey_inspiration_story.html"
+                            class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Journey</a>
+                        <a href="publications_insights.html"
+                            class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Publications</a>
+                        <a href="contact_opportunities.html"
+                            class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button"
+                        class="text-text-secondary hover:text-primary focus:outline-none focus:text-primary"
+                        onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-neutral-200">
+                <a href="homepage_academic_portfolio_hub.html"
+                    class="text-primary font-semibold block px-3 py-2 rounded-md text-base bg-primary-50">Home</a>
+                <a href="research_portfolio_ph_d_excellence_showcase.html"
+                    class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Research</a>
+                <a href="teaching_excellence_hub.html"
+                    class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Teaching</a>
+                <a href="academic_journey_inspiration_story.html"
+                    class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Journey</a>
+                <a href="publications_insights.html"
+                    class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Publications</a>
+                <a href="contact_opportunities.html"
+                    class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-50 to-accent-50 pt-6 pb-12 sm:pt-8 sm:pb-16 md:pt-10 md:pb-20 lg:pt-12 lg:pb-32 overflow-hidden">
+        <div class="absolute inset-0 bg-white/60"></div>
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-10 left-10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-primary rounded-full"></div>
+            <div class="absolute top-40 right-20 w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 bg-accent rounded-full"></div>
+            <div class="absolute bottom-20 left-1/4 w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-secondary rounded-full"></div>
+        </div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
+                <!-- Content -->
+                <div class="text-center lg:text-left order-2 lg:order-1">
+                    <div class="mb-3 sm:mb-4">
+                        <span class="inline-block bg-accent text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-semibold">
+                            PhD Research Scholar & Lecturer
+                        </span>
+                    </div>
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-crimson font-bold text-primary mb-3 leading-tight">
+                        Soni
+                    </h1>
+                    <p class="text-lg sm:text-xl md:text-2xl lg:text-2xl text-accent font-crimson font-semibold mb-3 sm:mb-4">
+                        PhD Scholar in Computer Science (AI-Based Model to Predict Depression in Women Using ML)
+                    </p>
+                    <p class="text-base sm:text-lg text-text-secondary mb-4 sm:mb-6 leading-relaxed text-justify lg:text-left">
+                        I am passionate about Artificial Intelligence, Machine Learning, and Data Mining, with a strong focus on using cutting-edge technologies to solve real-world problems and drive meaningful impact. My research centers on developing AI-based predictive models for mental health, specifically depression prediction in women using physiological data and machine learning techniques. I enjoy exploring the potential of AI and deep learning to create innovative solutions that enhance healthcare outcomes and improve quality of life.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
+                        <a href="research_portfolio_ph_d_excellence_showcase.html" class="btn-primary">
+                            <span>Explore Research</span>
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                        <a href="contact_opportunities.html" class="btn-secondary">
+                            <span>Collaborate With Me</span>
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </a>
+                    </div>
+                    
+                    <!-- Quick Stats -->
+                    <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-primary">5</div>
+                            <div class="text-sm text-text-secondary">Published Papers</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">1</div>
+                            <div class="text-sm text-text-secondary">Patent (In Process)</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-secondary">4</div>
+                            <div class="text-sm text-text-secondary">To Be Published</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-primary">IELTS 7</div>
+                            <div class="text-sm text-text-secondary">Band Score</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Portrait -->
+                <div class="flex justify-center lg:justify-end order-1 lg:order-2">
+                    <div class="profile-image-container">
+                        <div class="relative inline-block">
+                            <!-- Rectangular Image Frame -->
+                            <div class="w-64 h-80 sm:w-72 sm:h-96 md:w-80 md:h-[420px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                                <img src="Nonu1.jpg" alt="Soni - AI & ML Researcher" 
+                                    class="w-full h-full object-cover object-center transition-transform duration-300 hover:scale-105" 
+                                    onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616c9c9b8d4?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                            </div>
+                            
+                            <!-- Floating Badges - Better Positioned -->
+                            <div class="floating-badge absolute top-4 right-4 bg-accent text-white px-3 py-2 rounded-lg text-xs sm:text-sm font-semibold shadow-xl flex items-center gap-2 z-10 backdrop-blur-sm bg-opacity-95">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+                                </svg>
+                                <span>PhD Scholar</span>
+                            </div>
+                            
+                            <div class="absolute bottom-4 left-4 bg-primary text-white px-3 py-2 rounded-lg text-xs sm:text-sm font-semibold shadow-xl flex items-center gap-2 z-10 backdrop-blur-sm bg-opacity-95">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                                </svg>
+                                <span>Lecturer, DSVV</span>
+                            </div>
+
+                            <!-- Decorative Corner Elements -->
+                            <div class="hidden lg:block absolute -top-3 -left-3 w-12 h-12 border-t-4 border-l-4 border-secondary rounded-tl-2xl"></div>
+                            <div class="hidden lg:block absolute -bottom-3 -right-3 w-12 h-12 border-b-4 border-r-4 border-accent rounded-br-2xl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Expertise Section -->
+    <section class="py-12 sm:py-16 md:py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 sm:mb-16">
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-crimson font-bold text-primary mb-3 sm:mb-4">Research & Expertise</h2>
+                <p class="text-lg sm:text-xl text-text-secondary max-w-3xl mx-auto">Bridging cutting-edge AI research with practical applications in healthcare, education, and technology</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                <!-- Research Focus -->
+                <div class="card-research card-hover group cursor-pointer"
+                    onclick="window.location.href='research_portfolio_ph_d_excellence_showcase.html'">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-crimson font-semibold text-primary">PhD Research</h3>
+                    </div>
+                    <h4 class="text-lg font-semibold text-text-primary mb-3">AI-Based Depression Prediction Model</h4>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Developing AI-based model to predict depression in women using physiological data and machine learning algorithms. Identifying key factors and creating enhanced prediction models with improved accuracy. Validating performance using established depression assessment scales for early detection.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-accent-100 text-accent-800 px-3 py-1 rounded-full text-xs font-medium">Python</span>
+                        <span class="bg-accent-100 text-accent-800 px-3 py-1 rounded-full text-xs font-medium">TensorFlow</span>
+                        <span class="bg-accent-100 text-accent-800 px-3 py-1 rounded-full text-xs font-medium">PyTorch</span>
+                        <span class="bg-accent-100 text-accent-800 px-3 py-1 rounded-full text-xs font-medium">Scikit-learn</span>
+                    </div>
+                    <div class="flex items-center text-accent font-semibold group-hover:text-accent-600 transition-academic">
+                        <span class="mr-2">Explore Research</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Teaching Excellence -->
+                <div class="card-research card-hover group cursor-pointer" onclick="window.location.href='teaching_excellence_hub.html'">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-crimson font-semibold text-primary">Teaching</h3>
+                    </div>
+                    <h4 class="text-lg font-semibold text-text-primary mb-3">Lecturer at DSVV, Haridwar</h4>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Teaching undergraduate and postgraduate courses in Computer Science at Dev Sanskriti Vishwavidyalaya (DSVV), Haridwar since January 2025, with focus on Artificial Intelligence, Machine Learning, and Data Mining. Mentoring students in research projects and guiding them in developing practical AI applications.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-xs font-medium">AI & ML</span>
+                        <span class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-xs font-medium">Data Mining</span>
+                        <span class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-xs font-medium">Research Guidance</span>
+                    </div>
+                    <div class="flex items-center text-primary font-semibold group-hover:text-primary-600 transition-academic">
+                        <span class="mr-2">View Teaching Hub</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Publications & Innovation -->
+                <div class="card-research card-hover group cursor-pointer" onclick="window.location.href='publications_insights.html'">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-crimson font-semibold text-primary">Publications</h3>
+                    </div>
+                    <h4 class="text-lg font-semibold text-text-primary mb-3">Research Contributions</h4>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Contributing to academic knowledge through peer-reviewed publications, conference presentations, and patent development in AI applications for healthcare and technology.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-secondary-100 text-secondary-800 px-3 py-1 rounded-full text-xs font-medium">Conference Papers</span>
+                        <span class="bg-secondary-100 text-secondary-800 px-3 py-1 rounded-full text-xs font-medium">Patents</span>
+                        <span class="bg-secondary-100 text-secondary-800 px-3 py-1 rounded-full text-xs font-medium">Research Papers</span>
+                    </div>
+                    <div class="flex items-center text-secondary font-semibold group-hover:text-secondary-600 transition-academic">
+                        <span class="mr-2">Browse Publications</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Journey Highlights -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Academic Journey</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">From foundational studies to doctoral research - a commitment to academic excellence</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- PhD -->
+                <div class="bg-white p-8 rounded-lg shadow-academic text-center card-hover">
+                    <div class="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">PhD Scholar, Machine Learning & AI</h3>
+                    <p class="text-text-secondary mb-4">March 2024 – Present</p>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Maharishi Markandeshwar Deemed to be University, Haryana. Thesis: Development of an AI-Based Model to Predict Depression in Women Using Machine Learning.
+                    </p>
+                </div>
+
+                <!-- MCA -->
+                <div class="bg-white p-8 rounded-lg shadow-academic text-center card-hover">
+                    <div class="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Master of Computer Applications (MCA)</h3>
+                    <p class="text-text-secondary mb-4">July 2021 – June 2023 | CGPA: 8.12/10</p>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Dev Sanskriti Vishwavidyalaya (DSVV), Haridwar. Specialized in AI, ML, and advanced computing technologies.
+                    </p>
+                </div>
+
+                <!-- BCA -->
+                <div class="bg-white p-8 rounded-lg shadow-academic text-center card-hover">
+                    <div class="w-20 h-20 bg-secondary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Bachelor of Computer Applications (BCA)</h3>
+                    <p class="text-text-secondary mb-4">July 2018 – May 2021 | CGPA: 7.89/10</p>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Deenbandhu Chhotu Ram University of Science and Technology (DCRUST), Murthal, Haryana. Foundation in computer science and programming.
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="academic_journey_inspiration_story.html" class="btn-accent">View Complete Journey</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Impact Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Student Success Stories</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Inspiring the next generation of AI researchers and data scientists</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-surface p-6 rounded-lg shadow-academic card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            RV
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-text-primary">Rahul Verma</h4>
+                            <p class="text-sm text-text-secondary">MCA Student, DSVV</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary italic mb-4 leading-relaxed">
+                        "Dr. Sharma's teaching methodology transformed my understanding of machine learning. Her practical approach and real-world examples made complex concepts accessible and applicable."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        ★★★★★
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-surface p-6 rounded-lg shadow-academic card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            PS
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-text-primary">Priya Singh</h4>
+                            <p class="text-sm text-text-secondary">Data Science Course</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary italic mb-4 leading-relaxed">
+                        "The project-based learning approach helped me build a strong portfolio. I landed my dream job at a tech startup thanks to the practical skills I learned."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        ★★★★★
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-surface p-6 rounded-lg shadow-academic card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            AK
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-text-primary">Amit Kumar</h4>
+                            <p class="text-sm text-text-secondary">PhD Mentee</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary italic mb-4 leading-relaxed">
+                        "Dr. Sharma's mentorship during my research has been invaluable. Her guidance helped me publish my first paper in a top-tier conference and develop strong research methodology."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="teaching_excellence_hub.html" class="btn-secondary">View Teaching Excellence</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Updates Section -->
+    <section class="py-20 bg-gradient-to-r from-primary-50 to-accent-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Latest Updates</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Recent research, publications, and academic activities</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Update 1 -->
+                <article class="bg-white p-6 rounded-lg shadow-academic card-hover group cursor-pointer" onclick="window.location.href='publications_insights.html'">
+                    <div class="flex items-center text-sm text-text-secondary mb-3">
+                        <span class="bg-accent-100 text-accent-800 px-2 py-1 rounded text-xs font-medium mr-3">New Publication</span>
+                        <span>December 2024</span>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3 group-hover:text-primary-600 transition-academic">
+                        LLM 5.0: From Efficiency to Innovation
+                    </h3>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Presented research on large language models and their future impact on industry transformation at International Conference on Multi-Agent Systems.
+                    </p>
+                    <div class="flex items-center text-accent font-semibold">
+                        <span class="mr-2">Read More</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </article>
+
+                <!-- Update 2 -->
+                <article class="bg-white p-6 rounded-lg shadow-academic card-hover group cursor-pointer" onclick="window.location.href='research_portfolio_ph_d_excellence_showcase.html'">
+                    <div class="flex items-center text-sm text-text-secondary mb-3">
+                        <span class="bg-primary-100 text-primary-800 px-2 py-1 rounded text-xs font-medium mr-3">Research Progress</span>
+                        <span>November 2024</span>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3 group-hover:text-primary-600 transition-academic">
+                        AI in Mental Health Research
+                    </h3>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Significant progress in developing multimodal AI models for depression prediction, integrating physiological and behavioral data analysis.
+                    </p>
+                    <div class="flex items-center text-primary font-semibold">
+                        <span class="mr-2">View Research</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </article>
+
+                <!-- Update 3 -->
+                <article class="bg-white p-6 rounded-lg shadow-academic card-hover group cursor-pointer" onclick="window.location.href='teaching_excellence_hub.html'">
+                    <div class="flex items-center text-sm text-text-secondary mb-3">
+                        <span class="bg-secondary-100 text-secondary-800 px-2 py-1 rounded text-xs font-medium mr-3">Teaching Innovation</span>
+                        <span>October 2024</span>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3 group-hover:text-primary-600 transition-academic">
+                        New AI Curriculum Development
+                    </h3>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Developed and implemented updated AI and machine learning curriculum incorporating latest research findings and industry practices at DSVV.
+                    </p>
+                    <div class="flex items-center text-secondary font-semibold">
+                        <span class="mr-2">Learn More</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </article>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="publications_insights.html" class="btn-primary">View All Updates</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-6">Let's Collaborate on AI Research</h2>
+            <p class="text-xl text-text-secondary mb-8 leading-relaxed">
+                Interested in collaborating on AI and machine learning research? Whether you're a student, researcher, or industry professional, I'm always open to discussing new ideas and partnerships.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact_opportunities.html" class="btn-primary">
+                    <span>Get In Touch</span>
+                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                    </svg>
+                </a>
+                <a href="research_portfolio_ph_d_excellence_showcase.html" class="btn-secondary">
+                    <span>Explore Research</span>
+                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- About Section -->
+                <div>
+                    <div class="flex items-center mb-6">
+                        <svg class="h-8 w-8 text-accent mr-3" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2" />
+                            <path d="M12 20h16M20 12v16" stroke="currentColor" stroke-width="2" />
+                            <circle cx="16" cy="16" r="2" fill="currentColor" />
+                            <circle cx="24" cy="24" r="2" fill="currentColor" />
+                        </svg>
+                        <h3 class="text-xl font-crimson font-bold">Soni</h3>
+                    </div>
+                    <p class="text-primary-200 mb-4">PhD Data Science researcher and educator at DSVV University, bridging theoretical AI/ML research with practical applications.</p>
+                    <p class="text-primary-300 text-sm">AI Researcher | Innovating at the Intersection of Data & Intelligence</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-crimson font-semibold mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="research_portfolio_ph_d_excellence_showcase.html"
+                                class="text-primary-200 hover:text-white transition-academic">Research Portfolio</a>
+                        </li>
+                        <li><a href="teaching_excellence_hub.html"
+                                class="text-primary-200 hover:text-white transition-academic">Teaching Excellence</a>
+                        </li>
+                        <li><a href="academic_journey_inspiration_story.html"
+                                class="text-primary-200 hover:text-white transition-academic">Academic Journey</a></li>
+                        <li><a href="publications_insights.html"
+                                class="text-primary-200 hover:text-white transition-academic">Publications</a></li>
+                        <li><a href="contact_opportunities.html"
+                                class="text-primary-200 hover:text-white transition-academic">Collaboration</a></li>
+                    </ul>
+                </div>
+
+                <!-- Academic Profiles -->
+                <div>
+                    <h4 class="text-lg font-crimson font-semibold mb-6">Academic Profiles</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="javascript:void(0)"
+                                class="text-primary-200 hover:text-white transition-academic flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                                </svg>
+                                ResearchGate
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"
+                                class="text-primary-200 hover:text-white transition-academic flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                                </svg>
+                                Google Scholar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/soni-sharma-3632b9238"
+                                class="text-primary-200 hover:text-white transition-academic flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"
+                                class="text-primary-200 hover:text-white transition-academic flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                                GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-crimson font-semibold mb-6">Contact Information</h4>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <svg class="w-5 h-5 text-accent mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <div>
+                                <p class="text-primary-200">DSVV University</p>
+                                <p class="text-primary-300 text-sm">Computer Science Department</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <p class="text-primary-200">sonisharma6102000@gmail.com</p>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <p class="text-primary-200">Available for Collaboration & Research Guidance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="border-t border-primary-700 mt-12 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-primary-300 text-sm mb-4 md:mb-0">
+                        © 2025 Soni. All Rights Reserved.
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="javascript:void(0)"
+                            class="text-primary-300 hover:text-white text-sm transition-academic">Privacy Policy</a>
+                        <a href="javascript:void(0)"
+                            class="text-primary-300 hover:text-white text-sm transition-academic">Terms of Use</a>
+                        <a href="contact_opportunities.html"
+                            class="text-primary-300 hover:text-white text-sm transition-academic">Student Resources</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function (event) {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuButton = event.target.closest('button');
+
+            if (!mobileMenuButton && !mobileMenu.contains(event.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+    <script src="../js/main.js"></script>
+    <script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

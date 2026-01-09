@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teaching Excellence - Soni | AI & ML Educator</title>
+    <meta name="description" content="Explore Soni's teaching philosophy, course offerings, and innovative approaches to AI and machine learning education at DSVV University." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fdatascienc8517back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+    <style>
+        .teaching-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .teaching-card:hover {
+            transform: translateY(-5px);
+        }
+        .course-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .mentorship-stats {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 1rem;
+        }
+        .resource-category {
+            border-left: 4px solid;
+            transition: all 0.3s ease;
+        }
+        .resource-category:hover {
+            transform: translateX(5px);
+        }
+    </style>
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="bg-white shadow-academic sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo/Brand -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg class="h-10 w-10 text-primary" viewBox="0 0 40 40" fill="currentColor">
+                            <!-- Academic cap base -->
+                            <path d="M20 8L6 14l14 6 14-6-14-6z" fill="currentColor"/>
+                            <!-- Academic cap top -->
+                            <path d="M20 14l-10 4.5v6c0 3 4.5 5.5 10 5.5s10-2.5 10-5.5v-6L20 14z" fill="currentColor" opacity="0.8"/>
+                            <!-- Tassel -->
+                            <circle cx="32" cy="16" r="2" fill="currentColor"/>
+                            <path d="M32 18v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <h1 class="text-xl font-crimson font-bold text-primary">Soni</h1>
+                        <p class="text-sm text-text-secondary">AI & ML Researcher</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="homepage_academic_portfolio_hub.html" class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Home</a>
+                        <a href="research_portfolio_ph_d_excellence_showcase.html" class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Research</a>
+                        <a href="teaching_excellence_hub.html" class="text-primary font-semibold px-3 py-2 rounded-md text-sm border-b-2 border-primary">Teaching</a>
+                        <a href="academic_journey_inspiration_story.html" class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Journey</a>
+                        <a href="publications_insights.html" class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Publications</a>
+                        <a href="contact_opportunities.html" class="text-text-secondary hover:text-primary transition-academic px-3 py-2 rounded-md text-sm">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-text-secondary hover:text-primary focus:outline-none focus:text-primary" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-neutral-200">
+                <a href="homepage_academic_portfolio_hub.html" class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Home</a>
+                <a href="research_portfolio_ph_d_excellence_showcase.html" class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Research</a>
+                <a href="teaching_excellence_hub.html" class="text-primary font-semibold block px-3 py-2 rounded-md text-base bg-primary-50">Teaching</a>
+                <a href="academic_journey_inspiration_story.html" class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Journey</a>
+                <a href="publications_insights.html" class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Publications</a>
+                <a href="contact_opportunities.html" class="text-text-secondary hover:text-primary transition-academic block px-3 py-2 rounded-md text-base">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Teaching Philosophy -->
+    <section class="relative bg-gradient-to-br from-primary-50 to-accent-50 py-20 lg:py-32">
+        <div class="absolute inset-0 bg-white/60"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl lg:text-6xl font-crimson font-bold text-primary mb-6">
+                    Teaching <span class="text-accent">Excellence</span> Hub
+                </h1>
+                <p class="text-xl text-text-secondary mb-8 max-w-4xl mx-auto leading-relaxed">
+                    Bridging cutting-edge AI research with transformative education. My teaching philosophy centers on making complex data science concepts accessible while maintaining academic rigor, empowering students to become confident practitioners and innovators.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#courses" class="btn-primary">Explore Courses</a>
+                    <a href="#mentorship" class="btn-secondary">Student Mentorship</a>
+                    <a href="#resources" class="btn-accent">Learning Resources</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Philosophy -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-6">Teaching Philosophy</h2>
+                    <p class="text-lg text-text-secondary mb-6 leading-relaxed">
+                        I believe that effective teaching in AI and machine learning requires a delicate balance between theoretical foundations and practical applications. My approach integrates research insights with hands-on learning to prepare students for real-world challenges.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-accent rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-text-primary mb-2">Research-Informed Teaching</h3>
+                                <p class="text-text-secondary">Integrating current AI research findings and methodologies into course content</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-accent rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-text-primary mb-2">Project-Based Learning</h3>
+                                <p class="text-text-secondary">Emphasizing hands-on projects that solve real-world problems</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-accent rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-text-primary mb-2">Personalized Mentorship</h3>
+                                <p class="text-text-secondary">Tailoring guidance to individual student goals and learning styles</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                         alt="Teaching Environment" 
+                         class="w-full max-w-md h-80 object-cover rounded-lg shadow-academic-lg" 
+                         loading="lazy" 
+                         onerror="this.src='https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Offerings Section -->
+    <section id="courses" class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Course Offerings</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Comprehensive curriculum designed to build strong foundations and practical expertise in AI and data science</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Course 1 -->
+                <div class="teaching-card bg-white p-6 rounded-lg shadow-academic">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                                </svg>
+                            </div>
+                            <span class="course-badge bg-primary-100 text-primary-700">CS-501</span>
+                        </div>
+                        <div class="flex items-center text-yellow-400">
+                            <span class="text-sm text-text-secondary ml-1">4.8/5</span>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Programming Fundamentals</h3>
+                    <p class="text-text-secondary mb-4">Comprehensive introduction to programming principles, algorithms, and C/C++ programming for beginners.</p>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 mr-2 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>Duration: 16 weeks</span>
+                        </div>
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 mr-2 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                            <span>Enrolled: 45 students</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-primary-100 text-primary-800 px-2 py-1 rounded text-xs">C/C++</span>
+                        <span class="bg-primary-100 text-primary-800 px-2 py-1 rounded text-xs">Algorithms</span>
+                        <span class="bg-primary-100 text-primary-800 px-2 py-1 rounded text-xs">Problem Solving</span>
+                    </div>
+                    <button onclick="showCourseDetails('course1')" class="w-full btn-primary">View Syllabus</button>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="teaching-card bg-white p-6 rounded-lg shadow-academic">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                                </svg>
+                            </div>
+                            <span class="course-badge bg-accent-100 text-accent-700">CS-502</span>
+                        </div>
+                        <div class="flex items-center text-yellow-400">
+                            <span class="text-sm text-text-secondary ml-1">4.9/5</span>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Machine Learning & AI</h3>
+                    <p class="text-text-secondary mb-4">Advanced machine learning algorithms with hands-on implementation and real-world case studies.</p>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 mr-2 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>Duration: 14 weeks</span>
+                        </div>
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 mr-2 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                            <span>Enrolled: 38 students</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-accent-100 text-accent-800 px-2 py-1 rounded text-xs">Python</span>
+                        <span class="bg-accent-100 text-accent-800 px-2 py-1 rounded text-xs">ML Algorithms</span>
+                        <span class="bg-accent-100 text-accent-800 px-2 py-1 rounded text-xs">TensorFlow</span>
+                    </div>
+                    <button onclick="showCourseDetails('course2')" class="w-full btn-accent">View Syllabus</button>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="teaching-card bg-white p-6 rounded-lg shadow-academic">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"/>
+                                </svg>
+                            </div>
+                            <span class="course-badge bg-secondary-100 text-secondary-700">CS-503</span>
+                        </div>
+                        <div class="flex items-center text-yellow-400">
+                            <span class="text-sm text-text-secondary ml-1">4.7/5</span>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Database Management Systems</h3>
+                    <p class="text-text-secondary mb-4">Comprehensive study of database design, SQL programming, and database management principles.</p>
+                    <div class="space-y-2 mb-4">
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 mr-2 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>Duration: 12 weeks</span>
+                        </div>
+                        <div class="flex items-center text-sm text-text-secondary">
+                            <svg class="w-4 h-4 mr-2 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                            <span>Enrolled: 42 students</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-secondary-100 text-secondary-800 px-2 py-1 rounded text-xs">SQL</span>
+                        <span class="bg-secondary-100 text-secondary-800 px-2 py-1 rounded text-xs">Database Design</span>
+                        <span class="bg-secondary-100 text-secondary-800 px-2 py-1 rounded text-xs">Normalization</span>
+                    </div>
+                    <button onclick="showCourseDetails('course3')" class="w-full btn-secondary">View Syllabus</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Innovation Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Teaching Innovation</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Unique approaches that transform traditional computer science education</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Innovation 1 -->
+                <div class="teaching-card bg-surface p-6 rounded-lg shadow-academic text-center">
+                    <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Interactive Coding Labs</h3>
+                    <p class="text-text-secondary mb-4">Live coding sessions where students implement algorithms and solve real-world problems using multiple programming languages.</p>
+                    <div class="text-accent font-semibold">Weekly Hands-on Sessions</div>
+                </div>
+
+                <!-- Innovation 2 -->
+                <div class="teaching-card bg-surface p-6 rounded-lg shadow-academic text-center">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m8 6V8a2 2 0 00-2-2H6a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Industry Projects</h3>
+                    <p class="text-text-secondary mb-4">Integration of actual industry problems from healthcare, cybersecurity, and e-commerce sectors into coursework.</p>
+                    <div class="text-primary font-semibold">Real Business Challenges</div>
+                </div>
+
+                <!-- Innovation 3 -->
+                <div class="teaching-card bg-surface p-6 rounded-lg shadow-academic text-center">
+                    <div class="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Research Integration</h3>
+                    <p class="text-text-secondary mb-4">Students participate in ongoing AI and ML research initiatives, contributing to publications and gaining academic experience.</p>
+                    <div class="text-secondary font-semibold">Research Opportunities</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentorship Section -->
+    <section id="mentorship" class="py-20 bg-gradient-to-r from-primary-50 to-accent-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-6">Student Mentorship</h2>
+                    <p class="text-lg text-text-secondary mb-8 leading-relaxed">
+                        My mentorship philosophy centers on personalized guidance that recognizes each student's unique learning style, career aspirations, and academic goals. I believe in fostering independent thinking while providing structured support.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-crimson font-semibold text-primary mb-2">Research Supervision</h3>
+                                <p class="text-text-secondary">Currently supervising students on diverse research projects ranging from AI applications to cybersecurity.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m8 6V8a2 2 0 00-2-2H6a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-crimson font-semibold text-primary mb-2">Career Development</h3>
+                                <p class="text-text-secondary">Providing comprehensive career guidance including resume reviews, interview preparation, and industry connections.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-crimson font-semibold text-primary mb-2">Academic Excellence</h3>
+                                <p class="text-text-secondary">Supporting students in achieving academic milestones through structured learning plans and personalized feedback.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mentorship Stats -->
+                <div class="mentorship-stats p-8 rounded-2xl text-center">
+                    <h3 class="text-2xl font-crimson font-bold text-white mb-8">Mentorship Impact</h3>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div>
+                            <div class="text-4xl font-bold text-white mb-2">20+</div>
+                            <div class="text-white/80">Students Mentored</div>
+                        </div>
+                        <div>
+                            <div class="text-4xl font-bold text-white mb-2">6</div>
+                            <div class="text-white/80">Active Research Projects</div>
+                        </div>
+                        <div>
+                            <div class="text-4xl font-bold text-white mb-2">92%</div>
+                            <div class="text-white/80">Success Rate</div>
+                        </div>
+                        <div>
+                            <div class="text-4xl font-bold text-white mb-2">15+</div>
+                            <div class="text-white/80">Publications with Students</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Success Stories -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Student Success Stories</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Tangible educational impact through student achievements and career progression</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Success Story 1 -->
+                <div class="teaching-card bg-surface p-6 rounded-lg shadow-academic">
+                    <div class="flex items-center mb-4">
+                        <div class="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
+                            RV
+                        </div>
+                        <div>
+                            <h4 class="font-crimson font-semibold text-text-primary text-lg">Rahul Verma</h4>
+                            <p class="text-sm text-text-secondary">MCA Graduate 2023</p>
+                            <p class="text-sm text-accent font-semibold">Software Developer at TechCorp</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary italic mb-4 leading-relaxed">
+                        "Dr. Sharma's programming fundamentals course transformed my career. The hands-on projects and real-world applications gave me the confidence to tackle complex problems."
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm">
+                            <span class="font-semibold text-primary mr-2">Course:</span>
+                            <span class="text-text-secondary">CS-501 Programming Fundamentals</span>
+                        </div>
+                        <div class="flex items-center text-sm">
+                            <span class="font-semibold text-primary mr-2">Achievement:</span>
+                            <span class="text-accent font-semibold">120% salary increase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Success Story 2 -->
+                <div class="teaching-card bg-surface p-6 rounded-lg shadow-academic">
+                    <div class="flex items-center mb-4">
+                        <div class="w-16 h-16 bg-gradient-to-r from-accent to-secondary rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
+                            PS
+                        </div>
+                        <div>
+                            <h4 class="font-crimson font-semibold text-text-primary text-lg">Priya Singh</h4>
+                            <p class="text-sm text-text-secondary">BCA Student 2023</p>
+                            <p class="text-sm text-accent font-semibold">Data Analyst at StartupHub</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary italic mb-4 leading-relaxed">
+                        "The database management course opened my eyes to the power of data organization. I now lead the data analytics team at a growing startup."
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm">
+                            <span class="font-semibold text-primary mr-2">Course:</span>
+                            <span class="text-text-secondary">CS-503 Database Management</span>
+                        </div>
+                        <div class="flex items-center text-sm">
+                            <span class="font-semibold text-primary mr-2">Achievement:</span>
+                            <span class="text-accent font-semibold">Data Team Lead (4 members)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Success Story 3 -->
+                <div class="teaching-card bg-surface p-6 rounded-lg shadow-academic">
+                    <div class="flex items-center mb-4">
+                        <div class="w-16 h-16 bg-gradient-to-r from-secondary to-primary rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">
+                            AK
+                        </div>
+                        <div>
+                            <h4 class="font-crimson font-semibold text-text-primary text-lg">Amit Kumar</h4>
+                            <p class="text-sm text-text-secondary">MCA Graduate 2024</p>
+                            <p class="text-sm text-accent font-semibold">AI Research Assistant</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary italic mb-4 leading-relaxed">
+                        "Dr. Sharma's mentorship during my machine learning project was invaluable. Her guidance helped me develop strong AI skills and secure a research position."
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm">
+                            <span class="font-semibold text-primary mr-2">Research Area:</span>
+                            <span class="text-text-secondary">Machine Learning Applications</span>
+                        </div>
+                        <div class="flex items-center text-sm">
+                            <span class="font-semibold text-primary mr-2">Current Project:</span>
+                            <span class="text-accent font-semibold">AI for Healthcare Analytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resource Library Section -->
+    <section id="resources" class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Learning Resources</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Comprehensive collection of learning materials organized by topic and difficulty level</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Resource Category 1 -->
+                <div class="resource-category bg-white p-6 rounded-lg shadow-academic border-l-4 border-accent">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-crimson font-semibold text-primary">Lecture Slides</h3>
+                    </div>
+                    <p class="text-text-secondary mb-4">Comprehensive slide decks covering all course topics with detailed explanations.</p>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span class="text-text-secondary">Beginner Level</span>
+                            <span class="text-accent font-semibold">20 Sets</span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-text-secondary">Advanced</span>
+                            <span class="text-accent font-semibold">10 Sets</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resource Category 2 -->
+                <div class="resource-category bg-white p-6 rounded-lg shadow-academic border-l-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-crimson font-semibold text-primary">Coding Exercises</h3>
+                    </div>
+                    <p class="text-text-secondary mb-4">Curated coding problems ranging from basic syntax to complex algorithm challenges.</p>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span class="text-text-secondary">C/C++</span>
+                            <span class="text-primary font-semibold">50+ Exercises</span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-text-secondary">Python</span>
+                            <span class="text-primary font-semibold">40+ Exercises</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resource Category 3 -->
+                <div class="resource-category bg-white p-6 rounded-lg shadow-academic border-l-4 border-secondary">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-crimson font-semibold text-primary">Project Guides</h3>
+                    </div>
+                    <p class="text-text-secondary mb-4">Step-by-step project guides with explanations and implementation strategies.</p>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span class="text-text-secondary">Web Development</span>
+                            <span class="text-secondary font-semibold">15 Guides</span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-text-secondary">ML Applications</span>
+                            <span class="text-secondary font-semibold">8 Guides</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resource Category 4 -->
+                <div class="resource-category bg-white p-6 rounded-lg shadow-academic border-l-4 border-accent">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-crimson font-semibold text-primary">Research Templates</h3>
+                    </div>
+                    <p class="text-text-secondary mb-4">Ready-to-use research templates with structured methodologies and documentation.</p>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span class="text-text-secondary">AI Research</span>
+                            <span class="text-accent font-semibold">8 Templates</span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-text-secondary">Data Analysis</span>
+                            <span class="text-accent font-semibold">6 Templates</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="contact_opportunities.html" class="btn-primary">Request Access to Resources</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Assessment Methodologies -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-crimson font-bold text-primary mb-4">Assessment Methodologies</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Transparent evaluation methods that translate theoretical knowledge into practical skills</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Assessment Method 1 -->
+                <div class="teaching-card bg-surface p-6 rounded-lg shadow-academic text-center">
+                    <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Project-Based Assessment</h3>
+                    <p class="text-text-secondary mb-4">Students work on real-world projects that demonstrate practical application of concepts.</p>
+                    <div class="text-accent font-semibold">40% of Grade</div>
+                </div>
+
+                <!-- Assessment Method 2 -->
+                <div class="teaching-card bg-surface p-6 rounded-lg shadow-academic text-center">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Continuous Assessment</h3>
+                    <p class="text-text-secondary mb-4">Regular quizzes, assignments, and participation tracking for consistent learning progress.</p>
+                    <div class="text-primary font-semibold">30% of Grade</div>
+                </div>
+
+                <!-- Assessment Method 3 -->
+                <div class="teaching-card bg-surface p-6 rounded-lg shadow-academic text-center">
+                    <div class="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-crimson font-semibold text-primary mb-3">Comprehensive Examination</h3>
+                    <p class="text-text-secondary mb-4">Traditional examinations that test theoretical understanding and problem-solving abilities.</p>
+                    <div class="text-secondary font-semibold">30% of Grade</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- About Section -->
+                <div>
+                    <div class="flex items-center mb-6">
+                        <svg class="h-8 w-8 text-accent mr-3" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 20h16M20 12v16" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="16" cy="16" r="2" fill="currentColor"/>
+                            <circle cx="24" cy="24" r="2" fill="currentColor"/>
+                        </svg>
+                        <h3 class="text-xl font-crimson font-bold">Soni</h3>
+                    </div>
+                    <p class="text-primary-200 mb-4">PhD Data Science researcher and educator at DSVV University, bridging theoretical AI/ML research with practical education.</p>
+                    <p class="text-primary-300 text-sm">AI Researcher | Innovating at the Intersection of Data & Intelligence</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-crimson font-semibold mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="research_portfolio_ph_d_excellence_showcase.html" class="text-primary-200 hover:text-white transition-academic">Research Portfolio</a></li>
+                        <li><a href="teaching_excellence_hub.html" class="text-primary-200 hover:text-white transition-academic">Teaching Excellence</a></li>
+                        <li><a href="academic_journey_inspiration_story.html" class="text-primary-200 hover:text-white transition-academic">Academic Journey</a></li>
+                        <li><a href="publications_insights.html" class="text-primary-200 hover:text-white transition-academic">Publications</a></li>
+                        <li><a href="contact_opportunities.html" class="text-primary-200 hover:text-white transition-academic">Collaboration</a></li>
+                    </ul>
+                </div>
+
+                <!-- Academic Profiles -->
+                <div>
+                    <h4 class="text-lg font-crimson font-semibold mb-6">Academic Profiles</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-academic flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                </svg>
+                                ResearchGate
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-academic flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                </svg>
+                                Google Scholar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/soni-sharma-3632b9238" class="text-primary-200 hover:text-white transition-academic flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="text-primary-200 hover:text-white transition-academic flex items-center">
+                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-crimson font-semibold mb-6">Contact Information</h4>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <svg class="w-5 h-5 text-accent mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            <div>
+                                <p class="text-primary-200">DSVV University</p>
+                                <p class="text-primary-300 text-sm">Computer Science Department</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <p class="text-primary-200">sonisharma6102000@gmail.com</p>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <p class="text-primary-200">Available for Student Consultation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="border-t border-primary-700 mt-12 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-primary-300 text-sm mb-4 md:mb-0">
+                        © 2025 Soni. All Rights Reserved.
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="javascript:void(0)" class="text-primary-300 hover:text-white text-sm transition-academic">Privacy Policy</a>
+                        <a href="javascript:void(0)" class="text-primary-300 hover:text-white text-sm transition-academic">Terms of Use</a>
+                        <a href="contact_opportunities.html" class="text-primary-300 hover:text-white text-sm transition-academic">Student Resources</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuButton = event.target.closest('button');
+            
+            if (!mobileMenuButton && !mobileMenu.contains(event.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+
+        function showCourseDetails(courseId) {
+            // This would typically show a modal with detailed course information
+            alert('Detailed course syllabus and information would be displayed here. This can include:\n\n• Weekly topics\n• Learning objectives\n• Required materials\n• Assessment criteria\n• Project descriptions\n\nFor actual implementation, this would open a modal or navigate to a detailed course page.');
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+    <script src="../js/main.js"></script>
+    <script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
