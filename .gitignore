@@ -1,4 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.log
 .DS_Store
-node_modules
-.idea
-package-lock.json
+node_modules/

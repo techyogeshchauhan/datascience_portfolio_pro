@@ -12,7 +12,7 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 import os
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='.', static_url_path='')
 CORS(app)  # Enable CORS for all routes
 
 # ============================================
@@ -21,8 +21,9 @@ CORS(app)  # Enable CORS for all routes
 
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
-SENDER_EMAIL = 'sonisharma6102000@gmail.com'
-SENDER_PASSWORD = 'mgivlkynzzomxfmu'  # Replace with your Gmail App Password
+SENDER_EMAIL = 'soni6102000@gmail.com'
+SENDER_PASSWORD = os.environ.get('SENDER_PASSWORD', 'mgivlkynzzomxfmu')  # Use environment variable
+RECEIVER_EMAIL = 'soni6102000@gmail.com'
 RECEIVER_EMAIL = 'sonisharma6102000@gmail.com'
 
 # ============================================
@@ -202,9 +203,15 @@ def health_check():
 # RUN SERVER
 # ============================================
 
+@app.route('/')
+def index():
+    return app.send_static_file('index.html')
+
+@app.route('/<path:path>')
+def serve_static(path):
+    return app.send_static_file(path)
+
 if __name__ == '__main__':
-    # For development
-    app.run(host='0.0.0.0', port=5000, debug=True)
-    
-    # For production, use gunicorn:
-    # gunicorn -w 4 -b 0.0.0.0:5000 send-email:app
+    import os
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=False)

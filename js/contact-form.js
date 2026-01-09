@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const formData = new FormData(contactForm);
                 
                 // Send to Python backend
-                const response = await fetch('http://localhost:5000/send-email', {
+                const response = await fetch('/send-email', {
                     method: 'POST',
                     body: formData
                 });
